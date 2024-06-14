@@ -1,28 +1,43 @@
 import React from 'react'
 import './App.css'
 import './reset.css'
-import { Logo } from './components/logo'
+import './App-responsive.css'
+// import { Logo } from './components/logo'
 
 function App() {
 
   return (
     <>
-     <main>
+      <main>
         <header className='header-container'>
-          <Logo />
+          {/* <Logo /> */}
+          <img src="https://placehold.co/300x100" alt="place holder" className='logo' />
 
           <nav className='menu-options'>
             <a href="">What we offer</a>
             <a href="">How it works</a>
             <a href="">Portifolio</a>
           </nav>
-
-          <div className='header-btn'>
-            <button>Contact us</button>
-          </div>
+          <button className='header-btn'>
+            <div className='btn-default'>
+              Contact us ↗
+            </div>
+            <div className='btn-hover'>
+              Contact us ↗
+            </div>
+          </button>
         </header>
-        <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur debitis culpa ullam recusandae iure molestiae, quae omnis perferendis! Laudantium maxime consequatur inventore animi consequuntur? Vitae necessitatibus omnis ipsa recusandae nisi?</span>
-     </main>
+        <div className="content-container">
+          <div className='text-container'>
+            <h2>Let's grow your </h2>
+            <h2>social presence.</h2>
+          </div>
+          <div className="emoji target">🎯</div>
+          <div className="emoji shop">🛍️</div>
+          <div className="emoji rocket">🚀</div>
+          <div className="emoji fire">🔥</div>
+        </div>
+      </main >
     </>
   )
 }

@@ -1,0 +1,43 @@
+@media (max-width: 600px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center; 
+        margin-bottom: 20px;
+    }
+
+    .text-container h2:first-child {
+        align-self: center;
+    }
+    
+    .text-container h2:last-child {
+        align-self: center;
+    }
+
+    .menu-options {
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+
+    .header-btn {
+        flex-direction: row; 
+        justify-content: space-around; 
+        width: 50%; 
+    }
+
+    .emoji {
+        opacity: 0.3;
+    }
+    
+    .emoji.target {
+        left: 60%;        
+    }
+
+    .emoji.rocket {
+        top: 80%;
+    }
+
+    .emoji.fire {
+        display: none;
+    }
+}
+

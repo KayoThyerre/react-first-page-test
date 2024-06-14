@@ -2,7 +2,7 @@ import './logo.css';
 
 export function Logo() {
     return (
-        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="450" height="180">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="650" height="180">
             <path d="M0 0 C406.23 0 812.46 0 1231 0 C1231 304.26 1231 608.52 1231 922 C824.77 922 418.54 922 0 922 C0 617.74 0 313.48 0 0 Z " fill="#020B34" transform="translate(0,0)" />
             <path d="M0 0 C162.36 0 324.72 0 492 0 C492 304.26 492 608.52 492 922 C329.64 922 167.28 922 0 922 C0 617.74 0 313.48 0 0 Z " fill="#FEFEFE" transform="translate(0,0)" />
             <path d="M0 0 C149.16 0 298.32 0 452 0 C452 64.35 452 128.7 452 195 C302.84 195 153.68 195 0 195 C0 130.65 0 66.3 0 0 Z " fill="#190924" transform="translate(0,0)" />
